@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <!-- Font Awesom -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link
+      rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap"
+      rel="stylesheet">
   </head>
   <body>
+    <!-- Container -->
     <div class="container">
-      <h1 id="main-heading">
-        Favourite Sports
-      </h1>
-      <ul id="sports">
-        <li id="football">football</li>
-        <li id="bassketball">bassketball</li>
-        <li id="boxing">boxing</li>
-        <li id="golf">golf</li>
-        <li id="tennis">tennis</li>
-      </ul>
-      <div class="div2">
-        2
-        <div class="div1">
-          1
-          <!-- <button type="submit">Click</button> -->
-          <a href="" class="button">Click</a>
+      <div class="header">
+        <h2 class="header-title">Javascript Quote Generator</h2>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="text-area">
+          <span class="quote">
+            'What I hear, I forget.
+            What I see, I remember.
+            What I do, I understand.
+            What I reflect, I learn.'
+          </span>
+          <div class="person">Confucius</div>
+        </div>
+        <!-- Button -->
+        <div class="button-area">
+          <button id="new-quote">New Quoute</button>
         </div>
       </div>
     </div>
-    <!-- Event Probagation -->
+
     <script src="app.js" defer></script>
   </body>
 </html>
