@@ -16,7 +16,7 @@ const quotes = [
     person: `Stive Jobs`,
   },
   {
-    quote: `"It does not matter how sliwly you go al long as you do not stop."`,
+    quote: `"It does not matter how slowly you go al long as you do not stop."`,
     person: `Confucius`,
   },
 ];
