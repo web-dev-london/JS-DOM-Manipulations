@@ -32,11 +32,11 @@ h1 {
   color: white;
 }
 
-.list {
+#sports {
   background-color: white;
   margin-top: 2rem;
 }
-.list-item {
+li {
   padding: 1rem;
   border-bottom: 1px solid #000;
 }
